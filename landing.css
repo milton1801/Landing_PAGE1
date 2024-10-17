@@ -1,0 +1,63 @@
+body{ 
+    background-color: silver;
+}
+header{ 
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    background-image: url('https://i.imgur.com/RurqKDM.jpg');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    color: white;
+    margin: 0; /* Elimina márgenes */
+    padding: 50px 0; /* Padding solo arriba y abajo */
+    width: 100vw; /* Asegura que ocupe el ancho completo */
+    height: auto; 
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Asegura que el body ocupe el ancho completo */
+    height: 100%;
+}
+h1{
+    margin-top: 0px;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+main{ 
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+ 
+   
+}
+nav{ 
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.05);
+}
+div{ 
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer{ 
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px 0;
+}
